@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="termwork2.0:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/termwork2_0_jar</output-path>
+    <root id="archive" name="termwork2.0.jar">
+      <element id="module-output" name="termwork2.0" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-base-11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-fxml-11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-base-11-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-controls-11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-fxml-11-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-graphics-11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-controls-11-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-graphics-11-win.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/bin" />
+    </root>
+  </artifact>
+</component>

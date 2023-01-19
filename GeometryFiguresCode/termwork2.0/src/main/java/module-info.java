@@ -1,0 +1,3 @@
+module ThirdProj {
+    requires lombok;
+}

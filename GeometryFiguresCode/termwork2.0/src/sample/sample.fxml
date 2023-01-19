@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="468.0" prefWidth="716.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Canvas fx:id="fxCanvas" height="500.0" layoutX="-11.0" width="500.0" />
+            <Button layoutX="521.0" layoutY="32.0" mnemonicParsing="false" onAction="#createNewFigure" prefHeight="26.0" prefWidth="130.0" text="Add figure" textAlignment="CENTER" />
+            <Button layoutX="521.0" layoutY="58.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" text="Move figure" />
+            <Button layoutX="521.0" layoutY="84.0" mnemonicParsing="false" onAction="#deleteFigure" prefHeight="26.0" prefWidth="130.0" text="Delete figure" />
+            <Button layoutX="521.0" layoutY="110.0" mnemonicParsing="false" onAction="#crossFigures" prefHeight="26.0" prefWidth="130.0" text="Cross figures" />
+            <TextField fx:id="tf1" layoutX="361.0" layoutY="161.0" prefHeight="26.0" prefWidth="42.0" promptText="1" visible="false" />
+            <TextField fx:id="tf2" layoutX="413.0" layoutY="161.0" prefHeight="26.0" prefWidth="42.0" promptText="2" visible="false" />
+            <TextField fx:id="tf3" layoutX="361.0" layoutY="199.0" prefHeight="26.0" prefWidth="42.0" promptText="3" visible="false" />
+            <TextField fx:id="type" layoutX="339.0" layoutY="46.0" promptText="type" visible="false" />
+            <Button fx:id="btnOK" defaultButton="true" layoutX="534.0" layoutY="213.0" mnemonicParsing="false" onMouseClicked="#closeForm" text="close" visible="false" />
+            <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="203.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true" />
+            <TextField fx:id="tf4" layoutX="413.0" layoutY="199.0" prefHeight="26.0" prefWidth="42.0" promptText="4" visible="false" />
+            <TextField fx:id="tf5" layoutX="361.0" layoutY="237.0" prefHeight="26.0" prefWidth="42.0" promptText="4" visible="false" />
+            <TextField fx:id="tf6" layoutX="413.0" layoutY="237.0" prefHeight="26.0" prefWidth="42.0" promptText="4" visible="false" />
+            <TextField fx:id="tf7" layoutX="361.0" layoutY="275.0" prefHeight="26.0" prefWidth="42.0" promptText="4" visible="false" />
+            <TextField fx:id="tf8" layoutX="413.0" layoutY="275.0" prefHeight="26.0" prefWidth="42.0" promptText="4" visible="false" />
+            <TextField fx:id="tf9" layoutX="361.0" layoutY="311.0" prefHeight="26.0" prefWidth="42.0" promptText="4" visible="false" />
+            <TextField fx:id="tf10" layoutX="413.0" layoutY="311.0" prefHeight="26.0" prefWidth="42.0" promptText="4" visible="false" />
+            <TextField fx:id="tf11" layoutX="361.0" layoutY="350.0" prefHeight="26.0" prefWidth="42.0" promptText="4" visible="false" />
+            <TextField fx:id="tf12" layoutX="413.0" layoutY="350.0" prefHeight="26.0" prefWidth="42.0" promptText="4" visible="false" />
+            <TextField fx:id="spinnerCount" layoutX="481.0" layoutY="225.0" visible="false" />
+            <Button layoutX="521.0" layoutY="237.0" mnemonicParsing="false" onAction="#square" prefHeight="26.0" prefWidth="130.0" text="Square" />
+            <TextField fx:id="square" layoutX="481.0" layoutY="425.0" promptText="Square/Lenght/Cross" />
+            <Button layoutX="521.0" layoutY="262.0" mnemonicParsing="false" onAction="#lenght" prefHeight="26.0" prefWidth="130.0" text="Lenght" />
+            <Button layoutX="521.0" layoutY="136.0" mnemonicParsing="false" onAction="#saveFile" prefHeight="26.0" prefWidth="130.0" text="Save file" />
+            <Button layoutX="521.0" layoutY="161.0" mnemonicParsing="false" onAction="#loadFile" prefHeight="26.0" prefWidth="130.0" text="Load file" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

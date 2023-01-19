@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerLoad">
+   <children>
+      <Button layoutX="30.0" layoutY="25.0" mnemonicParsing="false" onAction="#okButtonEvent" prefHeight="26.0" prefWidth="105.0" text="Load" />
+      <Button layoutX="152.0" layoutY="25.0" mnemonicParsing="false" onAction="#cancelButtonEvent" prefHeight="26.0" prefWidth="114.0" text="Cancel" />
+      <TextField fx:id="t1" layoutX="32.0" layoutY="64.0" prefHeight="26.0" prefWidth="231.0" promptText="Write here load file's name with .txt" />
+   </children>
+</AnchorPane>

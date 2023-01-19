@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11" class="java.beans.XMLDecoder">
+ <object class="sample.ControllerCashSave" id="ControllerCashSave0">
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>t1</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>0</string>
+   </void>
+  </void>
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>t2</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>0</string>
+   </void>
+  </void>
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>t3</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>0</string>
+   </void>
+  </void>
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>t4</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>0</string>
+   </void>
+  </void>
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>t5</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>0</string>
+   </void>
+  </void>
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>t6</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>0</string>
+   </void>
+  </void>
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>t7</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>0</string>
+   </void>
+  </void>
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>t8</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>0</string>
+   </void>
+  </void>
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>t9</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>0</string>
+   </void>
+  </void>
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>t10</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>0</string>
+   </void>
+  </void>
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>t11</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>0</string>
+   </void>
+  </void>
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>t12</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>0</string>
+   </void>
+  </void>
+  <void class="sample.ControllerCashSave" method="getField">
+   <string>type</string>
+   <void method="set">
+    <object idref="ControllerCashSave0"/>
+    <string>Trapeze</string>
+   </void>
+  </void>
+ </object>
+</java>

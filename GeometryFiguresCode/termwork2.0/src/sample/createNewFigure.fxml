@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerCNF">
+   <children>
+      <GridPane layoutX="23.0" layoutY="15.0" prefHeight="26.0" prefWidth="95.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="14.4" minHeight="0.0" prefHeight="14.4" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="20.8" minHeight="6.4" prefHeight="6.4" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <Button fx:id="cancel" layoutX="534.0" layoutY="15.0" mnemonicParsing="false" onAction="#cancelButtonEvent" text="Cancel" />
+      <ComboBox fx:id="comboBox" layoutX="22.0" layoutY="16.0" onAction="#comboBoxEvent" prefHeight="18.0" prefWidth="97.0" />
+      <TextField fx:id="t1" layoutX="22.0" layoutY="78.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <Label fx:id="l1a" layoutX="22.0" layoutY="54.0" text="1st point" visible="false" />
+      <TextField fx:id="t2" layoutX="94.0" layoutY="77.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <Label fx:id="l2" layoutX="11.0" layoutY="82.0" text="x:" visible="false" />
+      <Label fx:id="l3" layoutX="85.0" layoutY="82.0" text="y:" visible="false" />
+      <Label fx:id="l2a" layoutX="24.0" layoutY="113.0" text="2d point" visible="false" />
+      <Label fx:id="l4" layoutX="11.0" layoutY="137.0" text="x:" visible="false" />
+      <Label fx:id="l5" layoutX="85.0" layoutY="137.0" text="y:" visible="false" />
+      <TextField fx:id="t3" layoutX="22.0" layoutY="132.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <TextField fx:id="t4" layoutX="94.0" layoutY="132.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <Label fx:id="l3a" layoutX="25.0" layoutY="169.0" text="3d point" visible="false" />
+      <Label fx:id="l6" layoutX="11.0" layoutY="191.0" text="x:" visible="false" />
+      <Label fx:id="l7" layoutX="85.0" layoutY="191.0" text="y:" visible="false" />
+      <TextField fx:id="t6" layoutX="92.0" layoutY="186.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <TextField fx:id="t5" layoutX="22.0" layoutY="187.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <Label fx:id="l4a" layoutX="23.0" layoutY="222.0" text="4th point" visible="false" />
+      <Label fx:id="l8" layoutX="11.0" layoutY="242.0" text="x:" visible="false" />
+      <Label fx:id="l9" layoutX="85.0" layoutY="242.0" text="y:" visible="false" />
+      <TextField fx:id="t7" layoutX="22.0" layoutY="238.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <TextField fx:id="t8" layoutX="94.0" layoutY="238.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <Label fx:id="l5a" layoutX="21.0" layoutY="275.0" text="5th point" visible="false" />
+      <Label fx:id="l10" layoutX="11.0" layoutY="300.0" text="x:" visible="false" />
+      <Label fx:id="l11" layoutX="85.0" layoutY="300.0" text="y:" visible="false" />
+      <TextField fx:id="t9" layoutX="22.0" layoutY="295.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <TextField fx:id="t10" layoutX="94.0" layoutY="295.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <Label fx:id="l6a" layoutX="23.0" layoutY="331.0" text="6th point" visible="false" />
+      <Label fx:id="l12" layoutX="11.0" layoutY="357.0" text="x:" visible="false" />
+      <Label fx:id="l13" layoutX="85.0" layoutY="357.0" text="y:" visible="false" />
+      <TextField fx:id="t11" layoutX="20.0" layoutY="352.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <TextField fx:id="t12" layoutX="94.0" layoutY="352.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <Label fx:id="l14c" layoutX="27.0" layoutY="54.0" text="Center" visible="false" />
+      <Label fx:id="l15c" layoutX="28.0" layoutY="82.0" text="x:" visible="false" />
+      <Label fx:id="l16c" layoutX="114.0" layoutY="81.0" text="y:" visible="false" />
+      <TextField fx:id="t17c" layoutX="47.0" layoutY="77.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <TextField fx:id="t18c" layoutX="133.0" layoutY="78.0" prefHeight="26.0" prefWidth="51.0" text="0" visible="false" />
+      <TextField fx:id="t19c" layoutX="69.0" layoutY="109.0" prefHeight="26.0" prefWidth="71.0" text="0" visible="false" />
+      <Label fx:id="l17c" layoutX="28.0" layoutY="113.0" text="Radius" visible="false" />
+      <Spinner fx:id="s" layoutX="371.0" layoutY="15.0" onMouseClicked="#spinnerAdapter" visible="false" />
+      <Button fx:id="add" layoutX="133.0" layoutY="15.0" mnemonicParsing="false" onAction="#sendToScene1" text="Add" />
+   </children>
+</AnchorPane>
